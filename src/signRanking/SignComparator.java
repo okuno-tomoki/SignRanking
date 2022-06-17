@@ -6,6 +6,6 @@ import java.util.Comparator;
 
 		@Override
 		public int compare(Sign p1, Sign p2) {
-			return p1.num < p2.num ? -1 : 1;// 3条構文
+			return p1.num < p2.num ? -1 : 1;
 		}
 	}
